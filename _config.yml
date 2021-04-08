@@ -6,10 +6,10 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Dung Duong
+title: PhD Candidate in Computer Science
+email: tridungduong16@gmail.com
+website: https://tridungduong16.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -48,9 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Dung Duong and I'm a PhD student in University of Technology Sydney.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Python</mark> and <mark>Machine Learning</mark>
 
 content:
   - title: Projects # Title for the section
@@ -76,10 +76,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
+        title: FPT Telecom
         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
+        sub_title: Data Scientist
         caption: November 2017 - Present
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -90,9 +90,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
+        title: University of Technology Sydney
         caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        sub_title: PhD Computer Science
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
