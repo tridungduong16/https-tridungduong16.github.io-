@@ -84,30 +84,68 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Recommendation System
+            • Programming language: R, Python
+            • Preprocessing the films descriptions written in Vietnamese language by using many NLP techniques
+            including cleaning punctuations, stopwords, html tags, tokenizing, part-of-speech
+            • Building the topic modeling model for films description in order to convert text data to vector representation
+            • Features engineering for the content-based algorithm
+            • Keywords: recommendation system, topic model, natural language processing
+            Search Engine:
+            • Building a search engine for retrieving films in fptplay.vn, which is based on Elastic Search framework
+            along with the analysis of users’ log.
+            • Utilising the statistics including the number of people searching and viewing a film and the frequency of
+            keywords appearance from users’ to enhance the performance and precision of the returned results
+            • Using the analyzer to tokenize and analyze the Vietnamese language
+            • Keywords: information retrieval system, Elastic Search, NLP, features engineering
+            Commercial Detection
+            • Research the Shazam’s approach for audio recognition.
+            • Cut advertisements from TV channel videos, convert them into the hash value and insert into database.
+            • Detect advertisements in a video by searching them in database.
+            Energy Consumption Prediction
+            • Analyze and feature engineering time-series data
+            • Build LSTM model for predicting energy consumption in a Vietnamese region
+            • Keywords: LSTM model, time-series data, prediction model
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: University of Technology Sydney
+        title: University of Technology Sydney (UTS)
         caption: 2020 - Present
         sub_title: PhD Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          UTS is number one young university in Australia. 
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-          
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I do PhD in computer science in UTS. 
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Publication # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Xu, Guandong, et al. A New Perspective for Interpretable Machine Learning.
+        link: https://arxiv.org/abs/2006.16789
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Recent years have witnessed the rapid growth of machine learning in a wide range of fields such as image recognition, text classification, credit scoring prediction, recommendation system, etc. In spite of their great performance in different sectors, researchers still concern about the mechanism under any machine learning (ML) techniques that are inherently black-box and becoming more complex to achieve higher accuracy. Therefore, interpreting machine learning model is currently a mainstream topic in the research community. However, the traditional interpretable machine learning focuses on the association instead of the causality. This paper provides an overview of causal analysis with the fundamental background and key concepts, and then summarizes most recent causal approaches for interpretable machine learning. The evaluation techniques for assessing method quality, and open problems in causal interpretability are also discussed in this paper.
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       #Look at this cool image  
       #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
