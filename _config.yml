@@ -15,7 +15,7 @@ website: https://tridungduong16.github.io/
 darkmode: true
 
 # Social links
-twitter_username: facespics
+# twitter_username: facespics
 github_username:  tridungduong16
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -85,27 +85,28 @@ content:
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Recommendation System
-            • Programming language: R, Python
-            • Preprocessing the films descriptions written in Vietnamese language by using many NLP techniques
-            including cleaning punctuations, stopwords, html tags, tokenizing, part-of-speech
-            • Building the topic modeling model for films description in order to convert text data to vector representation
-            • Features engineering for the content-based algorithm
-            • Keywords: recommendation system, topic model, natural language processing
+            * Preprocessing the films descriptions written in Vietnamese language by using many NLP techniques including cleaning punctuations, stopwords, html tags, tokenizing, part-of-speech
+            * Building the topic modeling model for films description in order to convert text data to vector representation
+            * Features engineering for the content-based algorithm
+            * Keywords: recommendation system, topic model, natural language processing
+            * Programming language: R, Python
+                        
             Search Engine:
-            • Building a search engine for retrieving films in fptplay.vn, which is based on Elastic Search framework
+            * Building a search engine for retrieving films in fptplay.vn, which is based on Elastic Search framework
             along with the analysis of users’ log.
-            • Utilising the statistics including the number of people searching and viewing a film and the frequency of
+            * Utilising the statistics including the number of people searching and viewing a film and the frequency of
             keywords appearance from users’ to enhance the performance and precision of the returned results
-            • Using the analyzer to tokenize and analyze the Vietnamese language
-            • Keywords: information retrieval system, Elastic Search, NLP, features engineering
+            * Using the analyzer to tokenize and analyze the Vietnamese language
+            * Keywords: information retrieval system, Elastic Search, NLP, features engineering
+            
             Commercial Detection
-            • Research the Shazam’s approach for audio recognition.
-            • Cut advertisements from TV channel videos, convert them into the hash value and insert into database.
-            • Detect advertisements in a video by searching them in database.
+            * Research the Shazam’s approach for audio recognition.
+            * Cut advertisements from TV channel videos, convert them into the hash value and insert into database.
+            * Detect advertisements in a video by searching them in database.
             Energy Consumption Prediction
-            • Analyze and feature engineering time-series data
-            • Build LSTM model for predicting energy consumption in a Vietnamese region
-            • Keywords: LSTM model, time-series data, prediction model
+            * Analyze and feature engineering time-series data
+            * Build LSTM model for predicting energy consumption in a Vietnamese region
+            * Keywords: LSTM model, time-series data, prediction model
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
