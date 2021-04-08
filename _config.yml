@@ -77,10 +77,10 @@ content:
     content:
       - layout: left
         title: FPT Telecom
-        link: boringcompany.com
+        link: https://fpt.vn/en
         # link_text: boringcompany.com
         sub_title: Data Scientist
-        caption: November 2017 - Present
+        caption: Jan 2018 - Jan 2020
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -91,13 +91,13 @@ content:
     content:
       - layout: left
         title: University of Technology Sydney
-        caption: 2010 - 2013
+        caption: 2020 - Present
         sub_title: PhD Computer Science
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
+          
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
@@ -109,8 +109,8 @@ content:
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      #Look at this cool image  
+      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
